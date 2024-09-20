@@ -1,0 +1,55 @@
+.reportarProblema{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    font-family: var(--fonteSuse);
+    color: aliceblue;
+}
+
+.caixaDeCategoria{
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    background-color: #4b712f;
+    color: aliceblue;
+    border: solid #4b712f;
+    font-family: var(--fonteSuse);
+}
+
+.caixaDeCategoria option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outros{
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    background-color: #4b712f;
+    color: aliceblue;
+    border: solid #4b712f;
+    font-family: var(--fonteSuse);
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.botoes button{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: #f7f4ec;
+    color: #000;
+    border: solid #f7f4ec;
+    font-family: var(--fonteSuse);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}

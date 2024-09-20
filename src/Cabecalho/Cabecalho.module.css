@@ -1,0 +1,65 @@
+.cabecalhoPrincipal{
+    background-color: #c1ff72;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: var(--fonteSuse);
+}
+
+.logoDoCabecalho{
+    padding: 32px 32px;
+    width: 67px;
+    height: 45px;
+}
+
+.imgCabecalho{
+    width: 100%;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 32px 64px; */
+    gap: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.botoes a{
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+    font-family: var(--fonteSuse);
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.botaoInicio{
+    /* background: var(#2271D1, #2271D1); */
+    /* background: #000000E5;    */
+    color: #000;
+    /* box-shadow: 0px 0px 12px 4px #2271D1 inset; */
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+    
+} 
+
+.botaoRelatar{
+    /* background-color: transparent; */
+    /* border: 2px solid #F5F5F5; */
+    color: #000;
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}

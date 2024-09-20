@@ -1,0 +1,15 @@
+.termos{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+    gap: 20px;
+}
+
+.caixaTermos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
